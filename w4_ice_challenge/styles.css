@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6da9d2; 
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: transparent;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1:hover {
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: steelblue;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: steelblue;
+}
+
+.main-para {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: auto;
+}
+
+.quote {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.faith ul {
+    list-style: none;
+    padding: 0;
+    font-weight: bold;
+}
+
+.faith ul li {
+    margin: 10px 0;
+}
+
+.faith img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+main p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center; 
+}
+
+.message {
+    font-size: 1.5em;
+    font-weight: bold;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+footer {
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+}
