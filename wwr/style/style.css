@@ -1,0 +1,111 @@
+#content {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+#logo_link {
+    display: inline-block;
+}
+
+.logo {
+    width: 80px;
+    max-width: 100%;
+    height: auto;
+}
+
+nav a {
+    text-align: center;
+    color: #e0e1dd; /* Platinum for nav links */
+    text-decoration: none; /* Added */
+}
+
+nav a:hover {
+    background-color: #3875b6; /* Rich Blue on hover */
+    color: #e0e1dd; /* Platinum on hover for nav links */
+}
+
+.home-title {
+    color: #0d1b2a; /* Rich Black for home title */
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+    color: #415a77; /* Yinmn Blue for headings */
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+    background-color: #e0e1dd; /* Platinum background */
+}
+
+body {
+    background-color: #f9f9f8; /* Light Platinum background */
+}
+
+header {
+    background-color: rgba(20, 30, 13, .7); /* Dark semi-transparent background */
+}
+
+.book, .join {
+    background-color: #778da9; /* Silver Lake Blue background */
+    color: #333; /* Dark text for book and join */
+    text-decoration: none; /* Added */
+}
+
+.book:hover, .join:hover {
+    background-color: #d0d0d0; /* Slightly darker gray on hover */
+    color: #e0e1dd; /* Platinum on hover for book and join */
+}
+
+.msg {
+    background-color: #fff3cd; /* Light yellow background for messages */
+    color: #856404; /* Dark yellow text for contrast */
+}
+
+.msg h2 {
+    color: #856404; /* Dark yellow text for message headings */
+}
+
+.msg p {
+    color: #333; /* Dark text for message paragraphs */
+}
+
+footer {
+    background-color: #1b263b; /* Oxford Blue background */
+    color: white; /* White text for footer */
+}
+
+footer a {
+    color: #e0e1dd; /* Platinum for footer links */
+    text-decoration: none; /* Added */
+}
+
+footer a:hover {
+    color: #fff; /* White text on hover for footer links */
+}
+
+footer p {
+    font-size: 1.2em; /* Added */
+}
+
+footer p a:hover {
+    text-decoration: underline; /* Added */
+}
+
+.icon {
+    width: 80px;
+}
+
+#hero-img {
+    width: 100%;
+}
