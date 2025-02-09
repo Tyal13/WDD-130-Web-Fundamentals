@@ -28,6 +28,8 @@ nav a:hover {
 
 .home-title {
     color: #0d1b2a; /* Rich Black for home title */
+    font-size: 2em; /* Set font size for home title */
+    margin-top: 10px; /* Added margin */
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -48,41 +50,88 @@ main section {
     background-color: #e0e1dd; /* Platinum background */
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Montserrat:wght@400&display=swap');
+
 body {
+    font-family: 'Poppins', Arial, sans-serif; /* Updated body font */
     background-color: #f9f9f8; /* Light Platinum background */
+    font-size: 22px; /* Set default font size */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
 }
 
-header {
-    background-color: rgba(20, 30, 13, .7); /* Dark semi-transparent background */
+.home-title, .msg h2 {
+    font-family: 'Montserrat', Arial, sans-serif; /* Updated headline font */
 }
 
 .book, .join {
     background-color: #778da9; /* Silver Lake Blue background */
     color: #333; /* Dark text for book and join */
     text-decoration: none; /* Added */
+    font-size: 18px; /* Set font size for book and join */
+    margin-top: 50px; /* Added margin */
+    border-radius: 5px; /* Added border-radius */
 }
 
-.book:hover, .join:hover {
-    background-color: #d0d0d0; /* Slightly darker gray on hover */
-    color: #e0e1dd; /* Platinum on hover for book and join */
+.card-img {
+    border: 10px solid #778da9; /* Added border */
+}
+main section {
+    text-align: center;
+}
+
+main section img {
+    box-sizing: border-box; /* Added box-sizing */
+}
+
+
+#background {
+    height: 725px;
+    background-color: #e0e1dd; /* Platinum background */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Bebas+Neue&display=swap');
+
+body {
+    font-family: 'Poppins', Arial, sans-serif; /* Updated body font */
+    background-color: #f9f9f8; /* Light Platinum background */
+    font-size: 22px; /* Set default font size */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+}
+
+.home-title, .msg h2 {
+    font-family: 'Bebas Neue', Arial, sans-serif; /* Updated headline font */
+}
+
+.book, .join {
+    background-color: #778da9; /* Silver Lake Blue background */
+    color: #333; /* Dark text for book and join */
+    text-decoration: none; /* Added */
+    font-size: 18px; /* Set font size for book and join */
+    margin-top: 50px; /* Added margin */
 }
 
 .msg {
     background-color: #fff3cd; /* Light yellow background for messages */
     color: #856404; /* Dark yellow text for contrast */
+    line-height: 1.5em; /* Set line height for messages */
 }
 
 .msg h2 {
     color: #856404; /* Dark yellow text for message headings */
+    margin: 0; /* Reset margin */
 }
 
 .msg p {
     color: #333; /* Dark text for message paragraphs */
+    font-size: .8em; /* Set font size for message paragraphs */
 }
 
 footer {
     background-color: #1b263b; /* Oxford Blue background */
     color: white; /* White text for footer */
+    margin-top: 200px; /* Added margin */
 }
 
 footer a {
@@ -108,4 +157,8 @@ footer p a:hover {
 
 #hero-img {
     width: 100%;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0; /* Added margin */
 }
