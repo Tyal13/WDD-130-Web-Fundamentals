@@ -6,7 +6,9 @@
 }
 
 #logo_link {
-    display: inline-block;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 
 .logo {
@@ -17,138 +19,207 @@
 
 nav a {
     text-align: center;
-    color: #e0e1dd; /* Platinum for nav links */
-    text-decoration: none; /* Added */
+    color: #e0e1dd;
+    text-decoration: none;
 }
 
 nav a:hover {
-    background-color: #3875b6; /* Rich Blue on hover */
-    color: #e0e1dd; /* Platinum on hover for nav links */
+    background-color: #3875b6;
+    color: #e0e1dd;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 150px 80%;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+       
 .home-title {
-    color: #0d1b2a; /* Rich Black for home title */
-    font-size: 2em; /* Set font size for home title */
-    margin-top: 10px; /* Added margin */
+    color: #0d1b2a;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
-#hero-msg h1, #hero-msg h4 {
+#hero {
+    display: grid;
     text-align: center;
-    color: #415a77; /* Yinmn Blue for headings */
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px; 
+}  
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+             
+#hero-img {
+    width: 100%;
+}
+
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+#hero-msg h1 {
+    color: #5F6F84;
+    margin-top: +150px; 
+}
+
+#hero-msg h4 {
+    color: white;
+    margin-top: -30px; 
 }
 
 .button-box {
     text-align: center;
+    margin-top: -20px; 
 }
 
-main section {
-    text-align: center;
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    
 }
 
 #background {
     height: 725px;
-    background-color: #e0e1dd; /* Platinum background */
+    background-color: #e0e1dd;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Montserrat:wght@400&display=swap');
 
 body {
-    font-family: 'Poppins', Arial, sans-serif; /* Updated body font */
-    background-color: #f9f9f8; /* Light Platinum background */
-    font-size: 22px; /* Set default font size */
-    margin: 0; /* Reset margin */
-    padding: 0; /* Reset padding */
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #f9f9f8;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 .home-title, .msg h2 {
-    font-family: 'Montserrat', Arial, sans-serif; /* Updated headline font */
+    font-family: 'Montserrat', Arial, sans-serif;
 }
 
 .book, .join {
-    background-color: #778da9; /* Silver Lake Blue background */
-    color: #333; /* Dark text for book and join */
-    text-decoration: none; /* Added */
-    font-size: 18px; /* Set font size for book and join */
-    margin-top: 50px; /* Added margin */
-    border-radius: 5px; /* Added border-radius */
+    background-color: #778da9;
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.card-img, .mountains {
+    width: 100%;
+    border: 10px solid #778da9;
 }
 
 .card-img {
-    border: 10px solid #778da9; /* Added border */
+    border: 10px solid #d9c2a3;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
 }
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}   
+
 main section {
     text-align: center;
 }
 
 main section img {
-    box-sizing: border-box; /* Added box-sizing */
+    box-sizing: border-box;
 }
-
 
 #background {
     height: 725px;
-    background-color: #e0e1dd; /* Platinum background */
+    background-color: #e0e1dd;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Bebas+Neue&display=swap');
 
 body {
-    font-family: 'Poppins', Arial, sans-serif; /* Updated body font */
-    background-color: #f9f9f8; /* Light Platinum background */
-    font-size: 22px; /* Set default font size */
-    margin: 0; /* Reset margin */
-    padding: 0; /* Reset padding */
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #f9f9f8;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 .home-title, .msg h2 {
-    font-family: 'Bebas Neue', Arial, sans-serif; /* Updated headline font */
+    font-family: 'Bebas Neue', Arial, sans-serif;
 }
 
 .book, .join {
-    background-color: #778da9; /* Silver Lake Blue background */
-    color: #333; /* Dark text for book and join */
-    text-decoration: none; /* Added */
-    font-size: 18px; /* Set font size for book and join */
-    margin-top: 50px; /* Added margin */
+    background-color: #778da9;
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.mountains {
+    grid-column: 2 / 7;
+    grid-row: 5 / 8;
+    width: 100%;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
 .msg {
-    background-color: #fff3cd; /* Light yellow background for messages */
-    color: #856404; /* Dark yellow text for contrast */
-    line-height: 1.5em; /* Set line height for messages */
+    background-color: #fff3cd;
+    color: #856404;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
 .msg h2 {
-    color: #856404; /* Dark yellow text for message headings */
-    margin: 0; /* Reset margin */
+    color: #856404;
+    margin: 0;
 }
 
 .msg p {
-    color: #333; /* Dark text for message paragraphs */
-    font-size: .8em; /* Set font size for message paragraphs */
+    color: #333;
+    font-size: .8em;
 }
 
 footer {
-    background-color: #1b263b; /* Oxford Blue background */
-    color: white; /* White text for footer */
-    margin-top: 200px; /* Added margin */
+    background-color: #1b263b;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 footer a {
-    color: #e0e1dd; /* Platinum for footer links */
-    text-decoration: none; /* Added */
+    color: #e0e1dd;
+    text-decoration: none;
 }
 
 footer a:hover {
-    color: #fff; /* White text on hover for footer links */
+    color: #fff;
 }
 
 footer p {
-    font-size: 1.2em; /* Added */
+    font-size: 1.2em;
 }
 
 footer p a:hover {
-    text-decoration: underline; /* Added */
+    text-decoration: underline;
 }
 
 .icon {
@@ -159,6 +230,23 @@ footer p a:hover {
     width: 100%;
 }
 
-.rivers-card, .camping-card, .rapids-card {
-    margin: 200px 0; /* Added margin */
+.rivers-card {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
 }
+
+.camping-card {
+    grid-column: 5 / 7;
+    grid-row: 2 / 3;
+}
+
+.rapids-card {
+    grid-column: 8 / 10;
+    grid-row: 2 / 3;
+}
+
+#background {
+    grid-column: 1 / 11;
+    grid-row: 4 / 9;
+}
+
