@@ -1,0 +1,32 @@
+.content-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    background-color: #182933;
+    border-radius: 62px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    gap: 25px;
+    min-height: 280px;
+    position: relative;
+    overflow: hidden;
+}
+
+.video-container {
+    width: 50%;
+    position: sticky;
+    top: 20vh; /* Keeps it in view when scrolling */
+    transform: translateZ(0);
+}
+
+.video-container video {
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.text-container {
+    flex: 1;
+    padding: 20px;
+    color: #fff;
+}
