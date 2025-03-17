@@ -188,7 +188,7 @@ body {
 
 .msg h2 {
     color: #856404;
-    margin: 0;
+    margin: -4;
 }
 
 .msg p {
