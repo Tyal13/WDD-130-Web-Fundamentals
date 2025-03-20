@@ -6,25 +6,25 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #354254  ;
-  --secondary-color: #577193 ;
-  --accent1-color: #5F6F84;
-  --accent2-color: #C6D9F2;
+  --primary-color: #16252e;
+  --secondary-color: #a79474;
+  --accent1-color: #20343e;
+  --accent2-color: #d3bd96;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Poppins";
   --paragraph-font: "Bebas Neue family";
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #354254;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #354254; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #5F6F84  ;
-  --nav-link-color: #577193;
-  --nav-background-color: #C6D9F2;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #577193;
+  --headline-color-on-white: #2b444f;
+  --headline-color-on-color: #ffffff;
+  --paragraph-color-on-white: #2b444f;
+  --paragraph-color-on-color: #ffffff;
+  --paragraph-background-color: #20343e;
+  --nav-link-color: #d3bd96;
+  --nav-background-color: #a79474;
+  --nav-hover-link-color: #000000;
+  --nav-hover-background-color: #d3bd96;
 }
 
 
