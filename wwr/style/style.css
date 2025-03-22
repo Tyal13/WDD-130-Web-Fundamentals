@@ -67,9 +67,6 @@ nav {
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
-}
-
-#hero-msg h1 {
     color: #5F6F84;
     margin-top: +150px; 
 }
@@ -88,7 +85,7 @@ nav {
 .home-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    
+
 }
 
 #background {
