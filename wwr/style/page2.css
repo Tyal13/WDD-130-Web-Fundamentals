@@ -93,57 +93,6 @@ nav {
     background-color: #e0e1dd;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Montserrat:wght@400&display=swap');
-
-body {
-    font-family: 'Poppins', Arial, sans-serif;
-    background-color: #f9f9f8;
-    font-size: 22px;
-    margin: 0;
-    padding: 0;
-}
-
-.home-title, .msg h2 {
-    font-family: 'Montserrat', Arial, sans-serif;
-}
-
-.book, .join {
-    background-color: #778da9;
-    color: #333;
-    text-decoration: none;
-    font-size: 18px;
-    margin-top: 50px;
-    border-radius: 5px;
-}
-
-.card-img, .mountains {
-    width: 100%;
-    border: 10px solid #778da9;
-}
-
-.card-img {
-    border: 10px solid #d9c2a3;
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
-}
-.card-img:hover {
-    opacity: .6;
-    transform: scale(1.1);
-}   
-
-main section {
-    text-align: center;
-}
-
-main section img {
-    box-sizing: border-box;
-}
-
-#background {
-    height: 725px;
-    background-color: #e0e1dd;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Bebas+Neue&display=swap');
 
 body {
@@ -156,6 +105,60 @@ body {
 
 .home-title, .msg h2 {
     font-family: 'Bebas Neue', Arial, sans-serif;
+}
+
+.book, .join {
+    background-color: #778da9;
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.content-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    background-color: #333;
+    border-radius: 62px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    gap: 25px;
+    min-height: 280px;
+}
+
+.content-block .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.content-block .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 62px;
+    background-color: #20343e;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content-block .text-container {
+    flex: 1;
+    text-align: left;
+    padding: 10px;
+}
+
+main section {
+    text-align: center;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+#background {
+    height: 725px;
+    background-color: #e0e1dd;
 }
 
 .book, .join {
